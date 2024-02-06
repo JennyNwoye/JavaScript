@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.main-container{
+    width: 70%;
+    height: auto;
+    margin: 4rem auto;
+    border: 0.5px solid #f8f8f8;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.page-title-container{
+    width: 100%;
+    height: auto;
+    color: #f8f8f8;
+    padding: 1rem;
+    background-color: #494848;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+    /* margin-bottom: 1rem; */
+}
+
+.color-generation-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.color-box-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.first-color-box, .second-color-box, .third-color-box, .fourth-color-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    background-color: #e3e3e3;
+}
+
+.code-icon{
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.code-icon-new{
+    cursor: pointer;
+    visibility: visible;
+}
+
+.edit-and-delete{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    column-gap: 0.5rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.edit-and-delete-new{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    column-gap: 0.5rem;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.edit-and-delete i{
+    cursor: pointer;
+}
+
+
+.button-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.5rem;
+    background-color: #494848;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.left-button-container{
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    column-gap: 1.2rem;
+}
+
+.generate, .add{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.left-button-container p{
+    font-size: 0.9rem;
+}
+
+.button{
+    background-color: #f8f8f8;
+    color: #494848;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.button:hover{
+    background-color: #e3e3e3;
+    
+}
+
+@media screen and (max-width : 768px){
+    .button{
+        background-color: #f8f8f8;
+        color: #494848;
+        padding: 0.5rem;
+        outline: none;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .generate, .add{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.5rem;
+        color: white;
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+}

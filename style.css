@@ -1,0 +1,242 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.body-bg{
+    background-color: #D6E1FF;
+}
+
+.body-container{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding-top: 3rem;
+    
+}
+
+.card-container{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 1.2rem;
+}
+
+.top-section{
+    width: 100%;
+    height: auto;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+    background-image: url(./images/profile-side-view-her-she-260nw-1835620753.webp);
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.down-container{
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.top-down-container{
+    width: 100%;
+    height: auto;
+}
+
+.heading-container{
+    width: 100%;
+}
+
+.heading-container h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.paragraph-container{
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-container p{
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.middle-down-container{
+    width: 100%;
+    height: auto;
+}
+
+.annual-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #f8f9fe;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.audio-and-content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.audio-icon{
+    width: fit-content;
+    height: auto;
+    background-color: #E0E5FB;
+    padding: 0.7rem;
+    border-radius: 50rem;
+}
+
+.icon{
+    font-size: 0.8rem;
+    align-items: center;
+    color: #9aa1af;
+}
+
+.content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 1rem;
+    row-gap: 0.5rem;
+}
+
+.plan-type{
+    width: fit-content;
+    height: auto;
+}
+
+.plan-type h3{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.price{
+    width: fit-content;
+    height: auto;
+}
+
+.price p{
+    font-size: 0.9rem;
+    color: #9aa1af;
+}
+
+.change-container{
+    width: fit-content;
+    height: auto;
+}
+
+.change-container p{
+    font-size: 0.8rem;
+    color: #382AE1;
+}
+
+.bottom-down-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.first-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.first-button button{
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: #382AE1;
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.second-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.second-button button{
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: none;
+    
+    text-decoration: none;
+
+}
+
+a{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+} */
+
+
+/* DOM */
+.ourButtons{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.jenny-buttons{
+    background-color: green;
+    color: white;
+    padding: 2rem;
+    font-size: 1.5rem;
+}

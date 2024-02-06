@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    width: 30%;
+    height: auto;
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+    border: 1px solid #d7d7d7;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 1.5rem;
+    margin: 4rem auto;
+}
+
+.form-title{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.form-title h3{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 0.8rem;
+}
+
+.form-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.form-group input{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.enter-fullname-alert, .enter-email-alert, .enter-phonenumber-alert{
+    color: red;
+}
+
+.button-container{
+    width: 100%;
+    height: auto;
+
+}
+
+.button-container button{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: #1e1e1e;
+    font-size: i.2rem;
+    border-radius: 0.5rem;
+}

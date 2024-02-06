@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    
+    <div class="form-container">
+
+        <div class="form-title">
+            <h2>Welcome to Haven</h2>
+            <i class="fa-solid fa-hand-sparkles"></i>
+        </div>
+
+        <div class="form-caption">
+            <p>Kindly input your correct details and agree to the terms before signing up.</p>
+        </div>
+
+        <div class="google-and-facebook-buttons">
+
+            <div class="google-button">
+                <i class="fa-brands fa-google"></i>
+                <p>Sign Up with Google</p>
+            </div>
+
+            <div class="facebook-button">
+                <i class="fa-brands fa-facebook"></i>
+                <p>Sign Up with Facebook</p>
+            </div>
+            
+            <form class="form">
+
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter Fullname">
+                    <p class="enter-fullname-alert" id="enter-fullname-alert"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter Email Adsress">
+                    <p class="enter-email-alert" id="enter-email-alert"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="number" id="phonenumber" placeholder="Enter Phone Number">
+                    <p class="enter-phonenumber-alert" id="enter-phonenumber-alert"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <p class="enter-password-alert" id="enter-password-alert"></p>
+                </div>
+
+                <div class="check-box-container">
+                    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                    <label for="checkbox"> I agree to Haven's <span>terms of use</span> and <span>privacy policy</span></label>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" class="button" id="button">Proceed</button>
+                    <p class="already" id="already">Already have an account? <span>Log In</span></p>
+                </div>
+                
+
+            </form>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
